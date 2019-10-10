@@ -1,0 +1,10 @@
+#specified-scope li {
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  color: #fff; }
+  #specified-scope li:nth-child(odd) {
+    background-color: skyblue; }
+  #specified-scope li:nth-child(even) {
+    background-color: pink; }

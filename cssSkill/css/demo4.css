@@ -1,0 +1,9 @@
+.container .first-line span {
+  color: purple; }
+  .container .first-line span:not(:last-child):after {
+    content: ","; }
+
+.container .double-line span {
+  color: red; }
+  .container .double-line span:not(:nth-child(-n+2)) {
+    display: none; }

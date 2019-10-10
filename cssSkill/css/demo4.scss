@@ -1,0 +1,19 @@
+.container{
+	.first-line{
+		span{
+			color:purple;
+			&:not(:last-child):after{
+				content:","
+			}
+		}
+		
+	}
+	.double-line{
+		span{
+			color:red;
+			&:not(:nth-child(-n+2)){
+				display:none;
+			}
+		}
+	}
+}

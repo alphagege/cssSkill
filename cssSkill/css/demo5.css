@@ -1,0 +1,31 @@
+h1 {
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 30px;
+  color: red; }
+
+.image-size {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  height: 300px; }
+  .image-size li {
+    width: 200px; }
+  .image-size h3 {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px; }
+  .image-size img {
+    width: 100%;
+    height: 260px;
+    background-color: green; }
+    .image-size img.cover {
+      object-fit: cover; }
+    .image-size img.contain {
+      object-fit: contain; }
+    .image-size img.fill {
+      object-fit: fill; }
+    .image-size img.scale-down {
+      object-fit: scale-down; }

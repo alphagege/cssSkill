@@ -1,0 +1,14 @@
+#container ul {
+  list-style: none; }
+  #container ul li {
+    width: 100px;
+    padding: 0 20px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    background: red;
+    margin-top: 5px;
+    text-align-last: justify; }
+    #container ul li:first-child {
+      margin-top: 0px; }

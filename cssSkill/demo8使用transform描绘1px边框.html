@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title></title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/demo8.css"/>
+<body>
+	要点：分辨率比较低的屏幕下显示1px的边框会显得模糊，通过::before或::after和transform模拟细腻的1px边框
+	场景：容器1px边框
+		<div class="bruce flex-ct-y">
+			<div class="onepx-border normal">1px</div>
+			<div class="onepx-border thin">0.5px</div>
+		</div>
+</body>
+</html>
