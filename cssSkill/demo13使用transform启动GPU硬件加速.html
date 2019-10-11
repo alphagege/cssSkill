@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<p>
+			要点：有时执行动画可能会导致页面卡顿，可在特定元素中使用硬件加速来避免这个问题
+		</p>
+		<p>
+			场景：动画元素(绝对定位、同级中超过6个以上使用动画)
+		</p>
+		<p>兼容：transform</p>
+		<pre>
+			.elem {
+			    transform: translate3d(0, 0, 0); /* translateZ(0)亦可 */
+			}
+		</pre>
+	</body>
+</html>

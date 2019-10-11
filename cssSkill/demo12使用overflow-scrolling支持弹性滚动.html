@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<p>要点：iOS页面非body元素的滚动操作会非常卡(Android不会出现此情况)，通过overflow-scrolling:touch调用Safari原生滚动来支持弹性滚动，增加页面滚动的流畅度</p>
+		<p>场景：iOS页面滚动</p>
+		<p>兼容：iOS自带-webkit-overflow-scrolling</p>
+
+		<pre>	
+			body {
+				-webkit-overflow-scrolling: touch;
+			}
+			.elem {
+				overflow: auto;
+			}
+		</pre>
+	</body>
+</html>
