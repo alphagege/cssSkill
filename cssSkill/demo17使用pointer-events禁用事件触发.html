@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/demo17.css"/>
+	<body>
+		要点：通过pointer-events:none禁用事件触发(默认事件、冒泡事件、鼠标事件、键盘事件等)，相当于button的disabled
+		场景：限时点击按钮(发送验证码倒计时)、事件冒泡禁用(多个元素重叠且自带事件、a标签跳转)
+		<div class="bruce flex-ct-x">
+			<a class="disabled-trigger" href="https://www.baidu.com">点我</a>
+		</div>
+	</body>
+	<script type="text/javascript">
+		document.getElementsByClassName("disabled-trigger")[0].addEventListener("click", () => alert("Hello World"));
+	</script>
+</html>

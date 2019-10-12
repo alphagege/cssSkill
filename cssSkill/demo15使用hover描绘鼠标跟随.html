@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<script src="https://cdn.bootcss.com/vue/2.6.10/vue.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/demo15.css"/>
+	<body>
+		要点：将整个页面等比划分成小的单元格，每个单元格监听:hover，通过:hover触发单元格的样式变化来描绘鼠标运动轨迹
+		场景：鼠标跟随轨迹、水波纹、怪圈
+		<div class="bruce">
+			<div class="mouse-following">
+				<li v-for="i in 500"></li>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		var app = new Vue({
+			el:".bruce"
+		})
+	</script>
+</html>
