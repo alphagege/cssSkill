@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.auto-height {
+  width: 300px; }
+  .auto-height li {
+    list-style: none;
+    margin-top: 5px;
+    cursor: pointer; }
+    .auto-height li:first-child {
+      margin-top: 0; }
+    .auto-height li:hover p {
+      border-bottom-width: 1px;
+      max-height: 600px; }
+  .auto-height h3 {
+    padding: 0 20px;
+    height: 40px;
+    background-color: red;
+    cursor: pointer;
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff; }
+  .auto-height p {
+    overflow: hidden;
+    padding: 0 20px;
+    border: 1px solid red;
+    border-top: none;
+    border-bottom-width: 0;
+    max-height: 0;
+    line-height: 30px;
+    transition: all 500ms; }

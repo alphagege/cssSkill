@@ -1,0 +1,13 @@
+::selection {
+	background-color: purple;
+	color: #fff;
+}
+.select-color {
+	line-height: 50px;
+	font-weight: bold;
+	font-size: 30px;
+	color: red;
+}
+.special::selection {
+	background-color: green;
+}
